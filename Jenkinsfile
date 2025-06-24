@@ -45,6 +45,11 @@ pipeline {
                 '''
             }
         }
+        state('Test') {
+            steps {
+                echo 'Test State'
+            }
+        }
     }
     post {
         always {
