@@ -45,7 +45,7 @@ pipeline {
                 '''
             }
         }
-        state('Test') {
+        stage('Test') {
             steps {
                 echo 'Test State'
             }
